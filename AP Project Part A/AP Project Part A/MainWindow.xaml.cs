@@ -24,5 +24,6 @@ namespace AP_Project_Part_A
         {
             InitializeComponent();
         }
-    }
+
+    }  
 }
