@@ -25,5 +25,56 @@ namespace AP_Project_Part_A
             InitializeComponent();
         }
 
+        private void Button_new(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("welcome"+"\n"+"Fill in the information");
+        }
+
+        private void Blue_Click(object sender, RoutedEventArgs e)
+        {
+            doc1.Background = Brushes.Blue;
+            border1.Background = Brushes.Blue;
+        }
+
+        private void Red_Click(object sender, RoutedEventArgs e)
+        {
+            doc1.Background = Brushes.Red;
+            border1.Background = Brushes.Red;
+        }
+
+        private void Green_Click(object sender, RoutedEventArgs e)
+        {
+            doc1.Background = Brushes.Green;
+            border1.Background = Brushes.Green;
+        }
+
+        private void blue2_Click(object sender, RoutedEventArgs e)
+        {
+            Doc2.Background = Brushes.Blue;
+            border2.Background = Brushes.Blue;
+        }
+
+        private void Red2_Click(object sender, RoutedEventArgs e)
+        {
+            Doc2.Background = Brushes.Red;
+            border2.Background = Brushes.Red;
+        }
+
+        private void Green2_Click(object sender, RoutedEventArgs e)
+        {
+            Doc2.Background = Brushes.Green;
+            border2.Background = Brushes.Green;
+        }
+
+        private void next_Click(object sender, RoutedEventArgs e)
+        {
+            tabcontrol.SelectedItem = specificationstab;
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("do you want to exit?","exit", MessageBoxButton.YesNo,MessageBoxImage.Question);
+            
+        }
     }  
 }

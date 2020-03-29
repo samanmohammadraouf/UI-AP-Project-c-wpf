@@ -5,26 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AP_Project_Part_A"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="400"
+        Title="MainWindow" Height="695" Width="450"
         Padding="44">
 
-    <TabControl>
-        <TabItem Header="Setting">
-            <Border Padding="0 20 0 20" Background="DarkGray">
+    <TabControl x:Name="tabcontrol">
+        <TabItem Header="Setting" x:Name="settingtab">
+            <Border Padding="0 15 0 15" Background="#FF918F9C" x:Name="border1">
+
                 <StackPanel >
+                    <Grid>
+                        <DockPanel Background="#FF918F9C">
+                            <Menu x:Name="doc1" DockPanel.Dock="Top" Background="#FF918F9C">
+                                <MenuItem Header="color of background" Background="#FF918F9C">
+                                    <MenuItem Header="Blue" x:Name="Blue" Click="Blue_Click">
+                                        <MenuItem.Icon>
+                                            <Image Source="img/rang.jpg">
+                                            </Image>
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <MenuItem Header="Red" x:Name="Red" Click="Red_Click">
+                                        <MenuItem.Icon>
+                                            <Image Source="img/rang red.jpg">
+                                            </Image>
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <MenuItem Header="Green" x:Name="Green" Click="Green_Click">
+                                        <MenuItem.Icon>
+                                            <Image Source="img/rang green.jpg">
+                                            </Image>
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                </MenuItem>
+                            </Menu>
+                        </DockPanel>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="img/parcham.jpg" Width="25" Grid.Column="0"/>
+                        <Image Source="img/parcham2.jpg" Width="25" Grid.Column="1"/>
+                        <Image Source="img/parcham3.jpg" Width="25" Grid.Column="2"/>
+                        <Image Source="img/parcham4.jpg" Width="25" Grid.Column="3"/>
+                        <Image Source="img/parcham5.jpg" Width="25" Grid.Column="4"/>
+                        <Image Source="img/parcham6.jpg" Width="25" Grid.Column="5"/>
+                        <Image Source="img/parcham7.jpg" Width="25" Grid.Column="6"/>
+                        <Image Source="img/parcham8.jpg" Width="25" Grid.Column="7"/>
+                        <Image Source="img/parcham9.jpg" Width="25" Grid.Column="8"/>
+                        <Image Source="img/parcham10.jpg" Width="25" Grid.Column="9"/>
+                        <Image Source="img/parcham11.jpg" Width="25" Grid.Column="10"/>
+                        <Image Source="img/parcham12.jpg" Width="25" Grid.Column="11"/>
+
+                    </Grid>
+                    <Label Content="Welcome to our airline" RenderTransformOrigin="0.436,-0.219" Margin="1,0,252,0" Height="30">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-10.059"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+
+                    </Label>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="3*"/>
                             <ColumnDefinition Width="3*"/>
                         </Grid.ColumnDefinitions>
-                        <Button Content="Save" Grid.Column="0" Margin="15 0 15 0"/>
-                        <Button Content="Load" Grid.Column="1" Margin="15 0 15 0"/>
-                        <Button Content="Reset" Grid.Column="2" Margin="15 0 15 0"/>
+                        <Button x:Name="save" Content="Save" Grid.Column="0" Margin="15 0 15 0" Background="#FF450D0D" Foreground="#FF9EEDEB" ToolTip="Save the entered information"/>
+                        <Button x:Name="load" Content="Load" Grid.Column="1" Margin="15 0 15 0" Background="#FF450D0D" Foreground="#FF9EEDEB" ToolTip="Load previous information"/>
+                        <Button Content="Reset" Grid.Column="2" Margin="15 0 15 0" x:Name="Reset" Background="#FF450D0D" Foreground="#FF9EEDEB" ToolTip="The information will be re-entered"/>
                     </Grid>
 
                     <Grid>
-                        <Button Content="New" Margin=" 15 10 15 0"/>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="89*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="New" Margin="15,10,15,-0.2" Grid.ColumnSpan="2" Background="#FF450D0D" Foreground="#FF9EEDEB" ToolTip="A new form" Click="Button_new" />
                     </Grid>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -43,8 +114,10 @@
                             <ComboBoxItem Content="Domestic"/>
                             <ComboBoxItem Content="International"/>
                         </ComboBox>
-                        <TextBox Grid.Column="1" Margin="5 4 15 10"/>
+                        <TextBox Grid.Column="1" Margin="5 4 15 10" ToolTip="Where are you traveling?"/>
                     </Grid>
+                    <TextBlock Text="select date:" Margin="15 3 15 2"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="15 0 15 5"/>
                     <TextBlock Text="Select the flight" FontWeight="Bold" Margin="15 10 15 10"/>
                     <ComboBox Margin="15 10 150 10">
                         <ComboBoxItem Content="Airbus"/>
@@ -91,15 +164,38 @@
                     </Grid>
                     <TextBlock Text="Notes:" Margin="15"/>
                     <TextBox Margin="15" Grid.Row="0"/>
-                    <Button HorizontalAlignment="Center" Margin="130 10 130 10" Content="Next" Grid.Row="1"/>
+                    <Button HorizontalAlignment="Center" Margin="130 10 130 10" Content="Next" Grid.Row="1" Background="#FF450D0D" Foreground="#FF9EEDEB" Click="next_Click"/>
                 </StackPanel>
 
             </Border>
-            
+
         </TabItem>
-        <TabItem Header="Specifications">
-            <Border Padding="0 5 0 5" Background="LightGray">
+        <TabItem Header="Specifications" Height="22" Margin="-1.6,-2,-2.4,0" VerticalAlignment="Bottom" x:Name="specificationstab">
+            <Border Padding="0 5 0 5" Background="LightGray" x:Name="border2">
                 <StackPanel>
+                    <Grid>
+                        <DockPanel Background="LightGray" x:Name="Doc2">
+                            <Menu Background="LightGray">
+                                <MenuItem Header="select color of background">
+                                    <MenuItem Header="Blue" Click="blue2_Click" >
+                                        <MenuItem.Icon>
+                                            <Image Source="img/rang.jpg"/>
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <MenuItem Header="Red" Click="Red2_Click" >
+                                        <MenuItem.Icon>
+                                            <Image Source="img/rang red.jpg"/>
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <MenuItem Header="Green" Click="Green2_Click"  >
+                                        <MenuItem.Icon>
+                                            <Image Source="img/rang green.jpg"/>
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                </MenuItem>
+                            </Menu>
+                        </DockPanel>
+                    </Grid>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1.2*"/>
@@ -112,20 +208,21 @@
                         <TextBlock Text="Last Name:" Grid.Column="2" Margin="0 15 0 15" FontSize="13" FontWeight="Bold" FontFamily="tahoma"/>
                         <TextBox Grid.Column="3" Margin="5 15 15 15"/>
                     </Grid>
-                    <Grid>
+                    <Grid Height="38">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1.15*"/>
                             <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="1.5*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Text="Year of Birth:" FontSize="13" FontWeight="Bold" Margin="5 5 15 5" Grid.Column="0" />
-                        <TextBox Grid.Column="1" x:Name="birthday" Margin="5 5 5 5"/>
+                        <TextBox Grid.Column="1" x:Name="birthday" Margin="4.6,5,0,15" HorizontalAlignment="Left" Width="54"/>
                         <TextBlock Text="man or woman:" Grid.Column="2" Margin="10 5 0 5" FontWeight="Bold" FontSize="13"/>
-                        <ComboBox Grid.Column="3" Margin="5 5 15 5">
-                            <ComboBoxItem Content="Male"/>
-                            <ComboBoxItem Content="Female"/>
-                        </ComboBox>
+                        <RadioButton x:Name="Male" Content="Male" Grid.Column="3" HorizontalAlignment="Left" Margin="0,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.615,0.132" Width="79" Grid.ColumnSpan="2"/>
+                        <RadioButton Content="Female" Grid.Column="3" HorizontalAlignment="Left" Margin="0,18,0,-7.8" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="89" Height="17"/>
+
+
+
                     </Grid>
                     <TextBlock Text="Have you ever had these diseases?" FontWeight="Bold" Margin="15"/>
                     <Grid>
@@ -162,8 +259,9 @@
                         <TextBlock Text="Have a good trip" FontWeight="Heavy" FontSize="16" Margin="15" Grid.Column="0"/>
                         <Image Grid.Column="1" Width="28" Margin="15" Source="img/face.jpg" HorizontalAlignment="Left"/>
                     </Grid>
-                    <Image Source="img/unnamed.png" Width="280" Margin="30">
+                    <Image Source="img/unnamed.png" Width="280" Margin="20">
                     </Image>
+                    <Button Content="Exit" x:Name="Exit" Click="Exit_Click" Margin="160 0 160 0"/>
                 </StackPanel>
             </Border>
         </TabItem>

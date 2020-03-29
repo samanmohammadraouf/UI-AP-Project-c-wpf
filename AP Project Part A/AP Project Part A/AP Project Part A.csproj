@@ -99,5 +99,50 @@
   <ItemGroup>
     <Resource Include="img\face.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\parcham12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\rang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\rang red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\rang green.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
