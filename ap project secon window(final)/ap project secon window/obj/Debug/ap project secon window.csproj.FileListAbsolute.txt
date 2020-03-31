@@ -1,0 +1,34 @@
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\bin\Debug\ap project secon window.exe.config
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\bin\Debug\ap project secon window.exe
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\bin\Debug\ap project secon window.pdb
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window.csprojResolveAssemblyReference.cache
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\MainWindow.g.cs
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\App.g.cs
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window_MarkupCompile.cache
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window_MarkupCompile.lref
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\MainWindow.baml
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window.g.resources
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap_project_secon_window.Properties.Resources.resources
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window.csproj.GenerateResource.Cache
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window.exe
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\obj\Debug\ap project secon window.pdb
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\bin\Debug\AP Project Part A.exe
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\bin\Debug\AP Project Part A.pdb
+c:\users\userq\documents\visual studio 2017\Projects\ap project secon window\ap project secon window\bin\Debug\AP Project Part A.exe.config
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\bin\Debug\ap project secon window.exe.config
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\bin\Debug\ap project secon window.exe
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\bin\Debug\ap project secon window.pdb
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\bin\Debug\AP Project Part A.exe
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\bin\Debug\AP Project Part A.pdb
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\bin\Debug\AP Project Part A.exe.config
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window.csprojResolveAssemblyReference.cache
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\MainWindow.g.cs
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\App.g.cs
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window_MarkupCompile.cache
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window_MarkupCompile.lref
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\MainWindow.baml
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window.g.resources
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap_project_secon_window.Properties.Resources.resources
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window.csproj.GenerateResource.Cache
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window.exe
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\ap project secon window - Copy\ap project secon window\obj\Debug\ap project secon window.pdb
