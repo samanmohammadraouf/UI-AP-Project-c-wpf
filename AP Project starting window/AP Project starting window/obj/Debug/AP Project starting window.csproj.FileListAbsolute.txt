@@ -1,0 +1,17 @@
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\bin\Debug\AP Project starting window.exe.config
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\bin\Debug\AP Project starting window.exe
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\bin\Debug\AP Project starting window.pdb
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\bin\Debug\AP Project Part A.exe
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\bin\Debug\AP Project Part A.pdb
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\bin\Debug\AP Project Part A.exe.config
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window.csprojResolveAssemblyReference.cache
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\MainWindow.g.cs
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\App.g.cs
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window_MarkupCompile.cache
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window_MarkupCompile.lref
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\MainWindow.baml
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window.g.resources
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP_Project_starting_window.Properties.Resources.resources
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window.csproj.GenerateResource.Cache
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window.exe
+C:\Users\Userq\Documents\Visual Studio 2017\Projects\AP Project starting window\AP Project starting window\obj\Debug\AP Project starting window.pdb
