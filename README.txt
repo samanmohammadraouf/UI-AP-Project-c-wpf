@@ -1,3 +1,2 @@
 # UI-AP-Project-c#-wpf
-this is for AP c# project(wpf)
-(UI)
+this is my first time to create a UI for a windows aplication by wpf in c#
